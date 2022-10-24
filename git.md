@@ -6,7 +6,8 @@ Full command [reference](https://git-scm.com/docs).
 
 ## Commands
 ### [git add](https://git-scm.com/docs/git-add) options \<pathspec>
-Stage files mathing `<pathspec>` for commit. `<pathspec>` __*__ adds all in repo.
+Stage files mathing `<pathspec>` for commit. `<pathspec>` __*__ adds all in 
+repo.
 
 * `-n` dry-run, show files that would be added/ignored.
 * `-p` Interactively stage parts (hunks) of files.
@@ -57,24 +58,23 @@ Show commit logs
 ### [git push](https://git-scm.com/docs/git-push)
 Send changes from the local repo to the remote repo.
 
-Tags are not included by default. To push a single tag use 
+Tags are not included by default. To push a single tag use
 `git push origin <tagname>`. To push all tags that are not present in the
 remote repo use `git push origin --tags`.
 
 * `-u origin <branch>` add branch `<branch>` that exists locally but not
-  remote, to the remote repo, like GitHub.  
+  remote, to the remote repo, like GitHub.
 
 
 ### [git remote](https://git-scm.com/docs/git-remote) \<command>
-From git manual:Manage the set of repositories ("remotes") whose branches you
-track.
+From git manual: _Manage the set of repositories ("remotes") whose branches you
+track._
 
-**TODO: check what command actually does, after `git remote prune` local branch sort-pkg-nms in m6 still existed, had to `git branch -d sort-pkg-nms` to delete it** 
 
-* `prune <name> [--dry-run]` delete references local branches that no longer exist on the
-  remote repo `<name>` Normally, the `<name>` **origin** refers to the repo on
-  GitHub. `--dry-run` lists what would be deleted, without actually deleting
-  the local braches.
+* `prune <name> [--dry-run]` delete references to local branches that no longer
+  exist on the remote repo `<name>` Normally, the `<name>` **origin** refers to
+  the repo on GitHub. `--dry-run` lists what would be deleted, without doing
+  it. Branches itself are not deleted.
 
 
 ### [git restore](https://git-scm.com/docs/git-restore) \<file>
@@ -92,8 +92,8 @@ Show untracked files and changed files that are not staged.
 
 ### [git tag](https://git-scm.com/docs/git-tag)
 Show and manage tags. See `git push` for information about pushing tags to a
-remote repo. 
+remote repo.
 
-* `-a <version>` create an annoted tag for `<version>`. 
-* `-m` the message for the tag. If omitted the configured editor opens to 
+* `-a <version>` create an annoted tag for `<version>`.
+* `-m` the message for the tag. If omitted the configured editor opens to
   enter the message.
