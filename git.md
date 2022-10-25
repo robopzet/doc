@@ -53,6 +53,7 @@ Show commit logs
 * `--oneline`: shows commit hash and first line of the message (alias for
   `git log --pretty=oneline --abbrev-commit`).
 * `-- <path>`: show log of `<path>`.
+* `<tag-1>..<tag-2>`: log commits between `<tag-1>` and `<tag-2>`. 
 
 
 ### [git push](https://git-scm.com/docs/git-push)
