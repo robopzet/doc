@@ -6,7 +6,7 @@ Full command [reference](https://git-scm.com/docs).
 
 ## Commands
 ### [git add](https://git-scm.com/docs/git-add) options \<pathspec>
-Stage files mathing `<pathspec>` for commit. `<pathspec>` __*__ adds all in 
+Stage files mathing `<pathspec>` for commit. `<pathspec>` __*__ adds all in
 repo.
 
 * `-n` dry-run, show files that would be added/ignored.
@@ -27,6 +27,21 @@ Switch branches or restore working tree files.
 
 * `<branch>` switch working tree to `<branch>`.
 * `-b <branch>` create a branch named `<branch>` and switch to it.
+
+
+### [git clone](https://git-scm.com/docs/git-clone) \<URL>
+Clone a repository into a new directory.
+
+
+### [git commit](https://git-scm.com/docs/git-commit)
+Commit changes from the staging area. Without options the default editor opens
+to enter the commit message.
+
+* `-m "<msg>"` include the commit message `<msg>` on the command line. The
+  editor will not be used.
+* `--amend` change the latest commit to include extra file changes or change
+  the commit message. **Do not use this when the commit is already pushed to a
+  shared repository**.
 
 
 ### [git config](https://git-scm.com/docs/git-config) --global core.editor \<cmd>
@@ -53,7 +68,7 @@ Show commit logs
 * `--oneline`: shows commit hash and first line of the message (alias for
   `git log --pretty=oneline --abbrev-commit`).
 * `-- <path>`: show log of `<path>`.
-* `<tag-1>..<tag-2>`: log commits between `<tag-1>` and `<tag-2>`. 
+* `<tag-1>..<tag-2>`: log commits between `<tag-1>` and `<tag-2>`.
 
 
 ### [git push](https://git-scm.com/docs/git-push)
