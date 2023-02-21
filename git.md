@@ -1,6 +1,4 @@
 # git
-
-
 Full command [reference](https://git-scm.com/docs).
 
 
@@ -59,6 +57,11 @@ instance without other tabs. Found
 Shows differences between all changed files in working tree and HEAD.
 
 * `<file>` shows only the differences of \<file>.
+
+
+### [git init](https://git-scm.com/docs/git-init)
+Create an empty Git repository from the current directory. It creates the 
+**.git** directory. The common next step is to create a **.gitignore** file.
 
 
 ### [git log](https://git-scm.com/docs/git-log)
