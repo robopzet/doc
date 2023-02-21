@@ -60,7 +60,7 @@ Shows differences between all changed files in working tree and HEAD.
 
 
 ### [git init](https://git-scm.com/docs/git-init)
-Create an empty Git repository from the current directory. It creates the 
+Creates an initial Git repository from the current directory. It creates the
 **.git** directory. The common next step is to create a **.gitignore** file.
 
 
