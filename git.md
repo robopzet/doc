@@ -101,6 +101,13 @@ Restore the version of `<file>`. If `<file>` is changed but not staged,
 restores to the version before the changes.
 
 
+### [git revert](https://git-scm.com/docs/git-revert) HEAD | \<commit>
+Revert the changes that were made by a commit.
+
+* `HEAD` revert the latest commit to the HEAD.
+* `<commit>` the specific commit to revert.
+
+
 ### [git show](https://git-scm.com/docs/git-show)
 Show commits including file changes.
 
