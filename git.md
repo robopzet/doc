@@ -57,6 +57,7 @@ instance without other tabs. Found
 Shows differences between all changed files in working tree and HEAD.
 
 * `<file>` shows only the differences of \<file>.
+* `--cached` shows the differences that are staged for the next commit.
 
 
 ### [git init](https://git-scm.com/docs/git-init)
