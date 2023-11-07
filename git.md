@@ -97,6 +97,18 @@ track._
   it. Branches itself are not deleted.
 
 
+### [git reset](https://git-scm.com/docs/git-reset) \<commit> --hard
+Resets the current HEAD to the specified state.
+
+**Do not use this when the commit is already pushed to a shared repository**.
+
+Undo the commit and change the files back the state before the commit. use
+it on the last commit.
+
+If the commit has been pushed, create a new commit to change the files back
+to their origina state.
+
+
 ### [git restore](https://git-scm.com/docs/git-restore) \<file>
 Restore the version of `<file>`. If `<file>` is changed but not staged,
 restores to the version before the changes.
