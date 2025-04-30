@@ -75,8 +75,10 @@ Show commit logs
 * `<tag-1>..<tag-2>`: log commits between `<tag-1>` and `<tag-2>`.
 
 
-### [git merge](https://git-scm.com/docs/git-merge) --no-commit --no-ff <branch>
-Do a test run of a merge without committing changes.
+### [git merge](https://git-scm.com/docs/git-merge) --no-commit --no-ff \<branch>
+Do a test run of a merge without committing changes. Files are changed after 
+this command, to reset everything to the state before the merge use
+`git merge --abort`.
 
 
 ### [git push](https://git-scm.com/docs/git-push)
